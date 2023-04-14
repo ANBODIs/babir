@@ -1,0 +1,25 @@
+.card {
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.wrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper b {
+    color: red;
+    margin-top: 10px;
+}
